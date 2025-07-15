@@ -1,6 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
 import { Bed, BedSingle } from 'lucide-react'
+import { SignInButton, SignedIn, SignedOut, UserButton } from '@clerk/nextjs';
+import PrimaryButton from './PrimaryButton';
 
 export default function Navbar() {
   return (
@@ -12,27 +14,35 @@ export default function Navbar() {
             >
           <div className="mx-20 flex items-center w-auto h-auto p-2">
               <BedSingle color="#51abff" className="w-6 h-6 mr-2 sm:w-8 sm:h-8 " />
-              <span className="text-md sm:text-2xl font-bold bg-gradient-to-r from-blue-500 via-cyan-500 to-sky-500 bg-clip-text text-transparent">
+              <span className="text-md sm:text-2xl font-bold bg-gradient-to-r from-white via-gray-200 to-zinc-200 bg-clip-text text-transparent">
                 Sleep Tracker
               </span>
           </div>
             </Link>
 
-            <div className="flex items-center space-x-20 mx-20">
+            <div className="flex items-center space-x-14 mx-20">
               <Link href="/">            
-                <span>
+                <span className="hover:text-blue-400">
                   Home
                 </span>
               </Link>
 
-              <Link href="About">
-                <span>
+              <Link href="/about">
+                <span className="hover:text-blue-400">
                   About
                 </span>
               </Link>
 
-          
+              <SignedOut>
+                <SignInButton>
+                  <PrimaryButton text="Sign In"/>
+                </SignInButton>
+              </SignedOut>
 
+              <SignedIn>
+                <UserButton />
+              </SignedIn>
+              
             </div>
         </div>
       </div>
