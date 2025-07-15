@@ -2,9 +2,13 @@ import React from 'react'
 import Link from 'next/link'
 import { Bed, BedSingle } from 'lucide-react'
 import { SignInButton, SignedIn, SignedOut, UserButton } from '@clerk/nextjs';
+import { checkUser } from '@/lib/checkUser';
 import PrimaryButton from './PrimaryButton';
 
-export default function Navbar() {
+export default async function Navbar() {
+
+  const user = await checkUser();
+
   return (
     <nav>
       <div className="max-w-auto mx-auto px-4 sm:px-6 lg:px-8 bg-zinc-800">
