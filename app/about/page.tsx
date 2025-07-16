@@ -1,5 +1,6 @@
 import PrimaryButton from '@/components/PrimaryButton';
 import Link from 'next/link';
+import { useState } from 'react';
 
 const AboutPage = () => {
   return (
