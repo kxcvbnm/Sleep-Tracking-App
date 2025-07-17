@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Bungee } from "next/font/google";
 import "./globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 const bungeeFont = Bungee({
   variable: "--font-bungee",
@@ -38,6 +39,7 @@ export default function RootLayout({
         >
           <Navbar />
           {children}
+          <Footer />
         </body>
       </html>
     </ClerkProvider>    

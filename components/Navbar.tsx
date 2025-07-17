@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Link from 'next/link'
 import { Bed, BedSingle, SquareMenuIcon } from 'lucide-react'
 import { SignInButton, SignedIn, SignedOut, UserButton } from '@clerk/nextjs';
@@ -12,19 +12,19 @@ export default async function Navbar() {
   return (
     <nav>
       <div className="max-w-auto mx-auto px-4 sm:px-6 lg:px-8 bg-zinc-800">
-        <div className="flex items-center justify-between h-22">
+        <div className="flex items-center justify-center md:justify-between h-22">
             <Link href="/"
                   className="flex-shrink-0"
             >
-          <div className="mx-20 flex items-center w-auto h-auto p-2">
+          <div className="flex items-center w-auto h-auto p-2">
               <BedSingle color="#51abff" className="w-6 h-6 mr-2 sm:w-8 sm:h-8 " />
-              <span className="text-md sm:text-2xl font-bold bg-gradient-to-r from-white via-gray-200 to-zinc-200 bg-clip-text text-transparent">
+              <span className="flex items-center text-md sm:text-2xl font-bold bg-gradient-to-r from-white via-gray-200 to-zinc-200 bg-clip-text text-transparent">
                 Sleep Tracker
               </span>
           </div>
             </Link>
 
-            <div className="flex items-center space-x-14 mx-20">
+            <div className="hidden items-center sm:hidden md:flex space-x-14">
               <Link href="/">            
                 <span className="hover:text-blue-400">
                   Home
