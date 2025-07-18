@@ -8,6 +8,7 @@ import PrimaryButton from './PrimaryButton';
 export default async function Navbar() {
 
   const user = await checkUser();
+  console.log("User: ", user);
 
   return (
     <nav>
