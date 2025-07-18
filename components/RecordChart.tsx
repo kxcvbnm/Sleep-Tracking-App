@@ -29,7 +29,7 @@ const RecordChart = async () => {
   }
 
   return (
-    <div className='bg-zinc-800 flex items-center justify-center rounded-lg'>
+    <div className='bg-zinc-700 flex items-center justify-center'>
       <div className='bg-zinc-800 shadow-lg rounded-lg p-8 w-full '>
         <h3 className='text-2xl font-bold text-center mb-6 bg-gradient-to-r from-blue-500 via-sky-500
         to-cyan-500 bg-clip-text text-transparent'>

@@ -35,7 +35,7 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en">
         <body
-          className={` ${bungeeFont.variable} ${geistSans.variable} ${geistMono.variable} antialiased`}
+          className={` ${bungeeFont.variable} antialiased`}
         >
           <Navbar />
           {children}
