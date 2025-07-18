@@ -34,7 +34,7 @@ export default async function HomePage() {
                 Welcome Back, {user.firstName}
               </h2>
               <p className='text-zinc-400 mb-4'>
-                Here's a quick overview of your recent sleep activity. Stay
+                Here&apos;s a quick overview of your recent sleep activity. Stay
                 on top of your data insights and manage your tasks efficiently!
               </p>
               <div className='space-y-2'>

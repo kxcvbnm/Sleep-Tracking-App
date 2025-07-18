@@ -71,19 +71,19 @@ const Guest = () => {
         <div className='max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8'>
           <div className='bg-white p-6 rounded-md shadow'>
             <p className='text-gray-700 mb-4'>
-              "SleepTracker has revolutionized my bedtime routine. I wake up feeling refreshed and full of energy daily!"
+              &quot;SleepTracker has revolutionized my bedtime routine. I wake up feeling refreshed and full of energy daily!&quot;
             </p>
             <p className='text-blue-500 font-bold'>- Ken</p>
           </div>
           <div className='bg-white p-6 rounded-md shadow'>
             <p className='text-gray-700 mb-4'>
-              "SleepTracker's insights pinpointed my sleep problems, letting me fix them. I strongly recommend it!"
+              &quot;SleepTracker&apos;s insights pinpointed my sleep problems, letting me fix them. I strongly recommend it!&quot;
             </p>
             <p className='text-blue-500 font-bold'>- Pond</p>
           </div>
           <div className='bg-white p-6 rounded-md shadow'>
             <p className='text-gray-700 mb-4'>
-              "SleepTracker is user-friendly and delivers precise data. A must-have for anyone aiming to enhance their sleep!"
+              &quot;SleepTracker is user-friendly and delivers precise data. A must-have for anyone aiming to enhance their sleep!&quot;
             </p>
             <p className='text-blue-500 font-bold'>- Tatar</p>
           </div>

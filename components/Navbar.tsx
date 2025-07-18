@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import { Bed, BedSingle, SquareMenuIcon } from 'lucide-react'
+import { BedSingle } from 'lucide-react'
 import { SignInButton, SignedIn, SignedOut, UserButton } from '@clerk/nextjs';
 import { checkUser } from '@/lib/checkUser';
 import PrimaryButton from './PrimaryButton';
