@@ -20,10 +20,10 @@ const AverageSleep = async () => {
     return (
       <div className='bg-zinc-700lex items-center justify-center'>
         <div className='bg-zinc-800 shadow-lg rounded-lg p-8 w-full text-center'>
-          <h4 className='text-lg font-medium text-zinc-400 mb-2'>
+          <h4 className='text-base font-medium text-zinc-400 mb-2'>
             Your Average Sleep Last Month
           </h4>
-          <h1 className='sm:text-3xl text-2xl font-bold bg-gradient-to-r from-blue-500 via-sky-500
+          <h1 className='text-base sm:text-3xl font-bold bg-gradient-to-r from-blue-500 via-sky-500
         to-cyan-500 bg-clip-text text-transparent'>
             {hours} hours {minutes} minutes
           </h1>

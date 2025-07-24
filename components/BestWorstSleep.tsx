@@ -6,7 +6,7 @@ const BestWorstSleep = async () => {
   return (
     <div className='bg-zinc-700 flex items-center justify-center'>
       <div className='bg-zinc-800 shadow-lg rounded-lg p-8 w-full'>
-        <h3 className='text-2xl font-bold text-center mb-6 bg-gradient-to-r from-blue-500 via-sky-500
+        <h3 className='text-lg sm:text-2xl font-bold text-center mb-6 bg-gradient-to-r from-blue-500 via-sky-500
         to-cyan-500 bg-clip-text text-transparent'>
           Best and Worst Sleep
         </h3>
@@ -16,7 +16,7 @@ const BestWorstSleep = async () => {
             <h4 className='text-lg font-medium text-zinc-400 mb-2'>
               Best Sleep
             </h4>
-            <p className='text-3xl font-bold bg-gradient-to-r from-blue-500 via-sky-500
+            <p className='text-lg sm:text-3xl font-bold bg-gradient-to-r from-blue-500 via-sky-500
         to-cyan-500 bg-clip-text text-transparent'>
               {bestSleep !== undefined
                 ? `${bestSleep} hours`
@@ -32,7 +32,7 @@ const BestWorstSleep = async () => {
             <h4 className='text-lg font-medium text-zinc-400 mb-2'>
               Worst Sleep
             </h4>
-            <p className='text-3xl font-bold bg-gradient-to-r from-yellow-300 to-amber-200 bg-clip-text text-transparent'>
+            <p className='text-lg sm:text-3xl font-bold bg-gradient-to-r from-yellow-300 to-amber-200 bg-clip-text text-transparent'>
               {worstSleep !== undefined
                 ? `${worstSleep} hours`
                 : 'No data available'}

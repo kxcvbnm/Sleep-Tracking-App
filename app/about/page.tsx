@@ -17,10 +17,10 @@ const AboutPage = () => {
           {/* Text Content */}
           <div className="mw-full md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left ">
             <div className="flex flex-col items-center md:items-start">
-              <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-2 bg-gradient-to-r from-white via-gray-200 to-zinc-200 bg-clip-text text-transparent">
+              <h1 className="text-lg sm:text-4xl md:text-5xl font-bold mb-2 bg-gradient-to-r from-white via-gray-200 to-zinc-200 bg-clip-text text-transparent">
                 About
               </h1>
-              <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-white via-gray-200 to-zinc-200 bg-clip-text text-transparent">
+              <h1 className="text-lg sm:text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-white via-gray-200 to-zinc-200 bg-clip-text text-transparent">
                 Sleep Tracker
               </h1>
             </div>
@@ -34,7 +34,7 @@ const AboutPage = () => {
 
       {/* Mission Section */}
       <section className='py-16 px-8 bg-zinc-800'>
-        <h2 className='bg-gradient-to-r from-white via-gray-200 to-zinc-200 bg-clip-text text-transparent text-3xl font-bold text-center mb-8'>
+        <h2 className='text-xl sm:text-3xl font-bold text-center mb-8 bg-gradient-to-r from-white via-gray-200 to-zinc-200 bg-clip-text text-transparent'>
             Our Goal
         </h2>
         <p className='text-zinc-400 max-w-3xl mx-auto text-center'>
@@ -47,7 +47,7 @@ const AboutPage = () => {
 
       {/* Features Section */}
       <section className='py-16 px-8 bg-zinc-700'>
-        <h2 className='bg-gradient-to-r from-white via-gray-200 to-zinc-200 bg-clip-text text-transparent text-3xl font-bold text-center mb-8'>
+        <h2 className='bg-gradient-to-r from-white via-gray-200 to-zinc-200 bg-clip-text text-transparent text-xl sm:text-3xl font-bold text-center mb-8'>
           Why Choose SleepTracker?
         </h2>
         <div className='max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8'>
@@ -74,7 +74,7 @@ const AboutPage = () => {
 
       {/* Call to Action Section */}
       <section className='py-16 px-8 bg-zinc-800 text-center'>
-        <h2 className='text-3xl font-bold mb-4 bg-gradient-to-r from-white via-gray-200 to-zinc-200 bg-clip-text text-transparent'>
+        <h2 className='text-xl sm:text-3xl font-bold mb-4 bg-gradient-to-r from-white via-gray-200 to-zinc-200 bg-clip-text text-transparent'>
           Ready to Sleep Better?
         </h2>
         <p className='text-lg mb-6 text-zinc-400'>

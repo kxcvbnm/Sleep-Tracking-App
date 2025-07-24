@@ -5,17 +5,17 @@ const ContactPage = () => {
     <div className='bg-zinc-700 text-zinc-200'>
       {/* Hero Section */}
       <section className='flex flex-col items-center justify-center text-center py-16 px-8 bg-zinc-700'>
-        <h1 className='text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-white via-gray-200 to-zinc-200 bg-clip-text text-transparent'>
+        <h1 className='text-xl sm:text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-white via-gray-200 to-zinc-200 bg-clip-text text-transparent'>
           Contact SleepTracker
         </h1>
-        <p className='text-lg md:text-xl text-zinc-300'>
+        <p className='text-base md:text-xl text-zinc-400'>
           Have questions or need help? Get in touch with us!
         </p>
       </section>
 
       {/* Contact Form Section */}
       <section className='py-16 px-8 bg-zinc-800'>
-        <h2 className='text-3xl font-bold text-center mb-8 bg-gradient-to-r from-white via-gray-200 to-zinc-200 bg-clip-text text-transparent'>
+        <h2 className='text-xl sm:text-3xl font-bold text-center mb-8 bg-gradient-to-r from-white via-gray-200 to-zinc-200 bg-clip-text text-transparent'>
             Contact
         </h2>
         <form
@@ -97,12 +97,12 @@ const ContactPage = () => {
 
       {/* Contact Information Section */}
       <section className='py-16 px-8 bg-zinc-800'>
-        <h2 className='text-3xl font-bold text-center mb-8 bg-gradient-to-r from-white via-gray-200 to-zinc-200 bg-clip-text text-transparent'>
+        <h2 className='text-xl sm:text-3xl font-bold text-center mb-8 bg-gradient-to-r from-white via-gray-200 to-zinc-200 bg-clip-text text-transparent'>
           Contact Information
         </h2>
         <div className='max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center'>
           <div>
-            <h3 className='text-xl font-bold mb-2 bg-gradient-to-r from-white via-gray-200 to-zinc-200 bg-clip-text text-transparent'>
+            <h3 className='text-lg font-bold mb-2 bg-gradient-to-r from-white via-gray-200 to-zinc-200 bg-clip-text text-transparent'>
                 Email
             </h3>
             <p className='text-zinc-400'>
@@ -110,7 +110,7 @@ const ContactPage = () => {
             </p>
           </div>
           <div>
-            <h3 className='text-xl font-bold mb-2 bg-gradient-to-r from-white via-gray-200 to-zinc-200 bg-clip-text text-transparent'>
+            <h3 className='text-lg font-bold mb-2 bg-gradient-to-r from-white via-gray-200 to-zinc-200 bg-clip-text text-transparent'>
                 Phone
             </h3>
             <p className='text-zinc-400'>
@@ -118,7 +118,7 @@ const ContactPage = () => {
             </p>
           </div>
           <div>
-            <h3 className='text-xl font-bold mb-2 bg-gradient-to-r from-white via-gray-200 to-zinc-200 bg-clip-text text-transparent'>
+            <h3 className='text-lg font-bold mb-2 bg-gradient-to-r from-white via-gray-200 to-zinc-200 bg-clip-text text-transparent'>
                 Address
             </h3>
             <p className='text-zinc-400'>

@@ -17,9 +17,9 @@ export default async function Navbar() {
             <Link href="/"
                   className="flex-shrink-0"
             >
-          <div className="flex items-center w-auto h-auto p-2">
+          <div className="flex items-center w-auto h-auto p-2 min-w-fit">
               <BedSingle color="#51abff" className="w-6 h-6 mr-2 sm:w-8 sm:h-8 " />
-              <span className="flex items-center text-md sm:text-2xl font-bold bg-gradient-to-r from-white via-gray-200 to-zinc-200 bg-clip-text text-transparent">
+              <span className="text-sm sm:text-2xl font-bold bg-gradient-to-r from-white via-gray-200 to-zinc-200 bg-clip-text text-transparent">
                 SleepTracker
               </span>
           </div>
