@@ -1,18 +1,47 @@
-Sleeptracker is a web-application that helps people track their own sleep by input hours of sleep each day and how you feel about your sleep.
-Sleeptracker will calculate your average sleep hours in a month, show most and least time you slept then display in a vertical graph.
-At the bottom of the page it will shows you list of your sleep record and you can delete it if you put the wrong record.
+# Sleep Tracking App
 
-Feel free to try thank you 
-Link: https://sleep-tracker-pearl.vercel.app/
+Track your daily sleep hours + mood, visualize patterns, and understand your rest over time.
 
-Tech stack
-  - Next.js
-  - React
-  - Typescript
+[Live Demo → sleep-tracker-pearl.vercel.app](https://sleep-tracker-pearl.vercel.app)  
 
-Database
-  - Prisma
-  - Progresql (Neon)
+---
 
-Auth
-  - Clerk
+## 🧠 What It Does
+
+- Log how many hours you slept each day  
+- Rate how you feel about your sleep (mood, restfulness, etc.)  
+- View your average sleep hours over a month  
+- See which days you slept the most / least  
+- Graphical visualization of sleep data  
+- Editable record list — delete entries if needed  
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|-------|------------|
+| Framework / UI | Next.js + React + TypeScript |
+| Database | Prisma + PostgreSQL (Neon) |
+| Authentication | Clerk |
+| Styling / Other | Tailwind |
+
+---
+
+## 📁 Project Structure
+
+```text
+Sleep-Tracking-App/
+├─ app/
+├─ components/
+├─ lib/
+├─ prisma/
+├─ public/
+├─ type/
+├─ middleware.ts
+├─ next.config.ts
+├─ tsconfig.json
+├─ package.json
+├─ postcss.config.mjs
+├─ eslint.config.mjs
+└─ .gitignore
