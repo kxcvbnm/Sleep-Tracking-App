@@ -27,13 +27,13 @@ export default async function Navbar() {
 
             <div className="hidden items-center sm:hidden md:flex space-x-14">
               <Link href="/">            
-                <span className="hover:text-blue-400">
+                <span className="text-white hover:text-blue-400">
                   Home
                 </span>
               </Link>
 
               <Link href="/about">
-                <span className="hover:text-blue-400">
+                <span className="text-white hover:text-blue-400">
                   About
                 </span>
               </Link>
