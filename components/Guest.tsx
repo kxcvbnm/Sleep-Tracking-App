@@ -7,7 +7,7 @@ const Guest = () => {
       {/* Hero Section */}
       <div className='flex flex-col md:flex-row items-center justify-between p-3 md:p-16 bg-zinc-700 pt-20'>
         <div className='flex-1 mb-8 xl:pl-10'>
-          <h1 className='text-lg md:text-4xl font-bold mb-4 bg-gradient-to-r from-white via-gray-200 to-zinc-200 bg-clip-text text-transparent'>
+          <h1 className='text-lg md:text-4xl font-bold mb-4 text-white'>
             Welcome to SleepTracker
           </h1>
           <p className='text-sm md:text-xl mb-6 text-zinc-400'>
@@ -37,21 +37,21 @@ const Guest = () => {
         </h2>
         <div className='max-w-3xl mx-auto space-y-8'>
           <div>
-            <h3 className='text-xl font-bold bg-gradient-to-r from-white via-gray-200 to-zinc-200 bg-clip-text text-transparent'>What is SleepTracker?</h3>
+            <h3 className='text-xl font-bold text-white'>What is SleepTracker?</h3>
             <p className='text-zinc-400'>
               SleepTracker is a powerful tool designed to help you monitor your
               sleep patterns and improve your overall health.
             </p>
           </div>
           <div>
-            <h3 className='text-xl font-bold bg-gradient-to-r from-white via-gray-200 to-zinc-200 bg-clip-text text-transparent'>How does it work?</h3>
+            <h3 className='text-xl font-bold text-white'>How does it work?</h3>
             <p className='text-zinc-400'>
               SleepTracker analyzes your sleep data and provides personalized
               insights to help you achieve better sleep.
             </p>
           </div>
           <div>
-            <h3 className='text-xl font-bold bg-gradient-to-r from-white via-gray-200 to-zinc-200 bg-clip-text text-transparent'>Is SleepTracker free?</h3>
+            <h3 className='text-xl font-bold text-white'>Is SleepTracker free?</h3>
             <p className='text-zinc-400'>
               Yes, SleepTracker offers a free plan with basic features. Premium
               plans are available for advanced insights and analytics.
@@ -65,7 +65,7 @@ const Guest = () => {
 
       {/* Testimonials Section */}
       <div className='py-16 px-8 bg-zinc-800'>
-        <h2 className='text-2xl md:text-3xl font-bold text-center mb-8 bg-gradient-to-r from-white via-gray-200 to-zinc-200 bg-clip-text text-transparent'>
+        <h2 className='text-2xl md:text-3xl font-bold text-center mb-8 text-white'>
           What Our Users Say
         </h2>
         <div className='max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8'>

@@ -28,8 +28,8 @@ const RecordItem = ({ record }: { record: Record }) => {
         </span>
         <span className={`text-lg font-bold ${
         record?.amount < 7
-          ? 'bg-gradient-to-r from-yellow-300 to-amber-200 bg-clip-text text-transparent'
-          : 'bg-gradient-to-r from-blue-500 via-sky-500 to-cyan-500 bg-clip-text text-transparent'
+          ? 'text-yellow-300'
+          : 'text-blue-500'
       }`}>
           {record?.amount} hours
         </span>

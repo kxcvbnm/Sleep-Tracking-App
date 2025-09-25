@@ -5,7 +5,7 @@ const ContactPage = () => {
     <div className='bg-zinc-700 text-zinc-200'>
       {/* Hero Section */}
       <section className='flex flex-col items-center justify-center text-center py-16 px-8 bg-zinc-700'>
-        <h1 className='text-xl sm:text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-white via-gray-200 to-zinc-200 bg-clip-text text-transparent'>
+        <h1 className='text-xl sm:text-4xl md:text-5xl font-bold mb-4 text-white'>
           Contact SleepTracker
         </h1>
         <p className='text-base md:text-xl text-zinc-400'>
@@ -15,7 +15,7 @@ const ContactPage = () => {
 
       {/* Contact Form Section */}
       <section className='py-16 px-8 bg-zinc-800'>
-        <h2 className='text-xl sm:text-3xl font-bold text-center mb-8 bg-gradient-to-r from-white via-gray-200 to-zinc-200 bg-clip-text text-transparent'>
+        <h2 className='text-xl sm:text-3xl font-bold text-center mb-8 text-white'>
             Contact
         </h2>
         <form
@@ -36,7 +36,7 @@ const ContactPage = () => {
           <div>
             <label
               htmlFor='name'
-              className='block text-sm font-medium bg-gradient-to-r from-white via-gray-200 to-zinc-200 bg-clip-text text-transparent'
+              className='block text-sm font-medium text-white'
             >
               Name
             </label>
@@ -52,7 +52,7 @@ const ContactPage = () => {
           <div>
             <label
               htmlFor='email'
-              className='block text-sm font-medium bg-gradient-to-r from-white via-gray-200 to-zinc-200 bg-clip-text text-transparent'
+              className='block text-sm font-medium text-white'
             >
               Email
             </label>
@@ -68,7 +68,7 @@ const ContactPage = () => {
           <div>
             <label
               htmlFor='message'
-              className='block text-sm font-medium bg-gradient-to-r from-white via-gray-200 to-zinc-200 bg-clip-text text-transparent'
+              className='block text-sm font-medium text-white'
             >
               Message
             </label>
@@ -83,8 +83,7 @@ const ContactPage = () => {
           </div>
           <button
             type='submit'
-            className='w-full bg-gradient-to-r from-blue-500 via-sky-500
-            to-cyan-500 hover:from-blue-600 hover:via-sky-600 hover:to-cyan-600
+            className='w-full bg-blue-500 hover:bg-sky-500
             text-white px-4 py-2 rounded-md font-medium shadow-md cursor-pointer'
           >
             Send Message
@@ -97,12 +96,12 @@ const ContactPage = () => {
 
       {/* Contact Information Section */}
       <section className='py-16 px-8 bg-zinc-800'>
-        <h2 className='text-xl sm:text-3xl font-bold text-center mb-8 bg-gradient-to-r from-white via-gray-200 to-zinc-200 bg-clip-text text-transparent'>
+        <h2 className='text-xl sm:text-3xl font-bold text-center mb-8 text-white'>
           Contact Information
         </h2>
         <div className='max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center'>
           <div>
-            <h3 className='text-lg font-bold mb-2 bg-gradient-to-r from-white via-gray-200 to-zinc-200 bg-clip-text text-transparent'>
+            <h3 className='text-lg font-bold mb-2 text-white'>
                 Email
             </h3>
             <p className='text-zinc-400'>
@@ -110,7 +109,7 @@ const ContactPage = () => {
             </p>
           </div>
           <div>
-            <h3 className='text-lg font-bold mb-2 bg-gradient-to-r from-white via-gray-200 to-zinc-200 bg-clip-text text-transparent'>
+            <h3 className='text-lg font-bold mb-2 text-white'>
                 Phone
             </h3>
             <p className='text-zinc-400'>
@@ -118,7 +117,7 @@ const ContactPage = () => {
             </p>
           </div>
           <div>
-            <h3 className='text-lg font-bold mb-2 bg-gradient-to-r from-white via-gray-200 to-zinc-200 bg-clip-text text-transparent'>
+            <h3 className='text-lg font-bold mb-2 text-white'>
                 Address
             </h3>
             <p className='text-zinc-400'>

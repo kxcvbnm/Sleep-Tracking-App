@@ -16,8 +16,7 @@ const RecordChart = async () => {
     return (
       <div className='bg-zinc-800 flex items-center justify-center'>
         <div className='bg-zinc-800 shadow-lg rounded-lg p-8 w-full  text-center'>
-          <h3 className='text-lg sm:text-2xl font-bold mb-4 bg-gradient-to-r from-blue-500 via-sky-500
-          to-cyan-500 bg-clip-text text-transparent'>
+          <h3 className='text-lg sm:text-2xl font-bold mb-4 bg-blue-500'>
             No Sleep Records Found
           </h3>
           <p className='text-zinc-400'>
@@ -31,8 +30,7 @@ const RecordChart = async () => {
   return (
     <div className='bg-zinc-700 flex items-center justify-center'>
       <div className='bg-zinc-800 shadow-lg rounded-lg p-8 w-full '>
-        <h3 className='text-lg sm:text-2xl font-bold text-center mb-6 bg-gradient-to-r from-blue-500 via-sky-500
-        to-cyan-500 bg-clip-text text-transparent'>
+        <h3 className='text-lg sm:text-2xl font-bold text-center mb-6 text-blue-500'>
           Sleep Records Chart
         </h3>
         <BarChart 
