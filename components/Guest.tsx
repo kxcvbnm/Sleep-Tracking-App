@@ -60,9 +60,6 @@ const Guest = () => {
         </div>
       </div>
 
-      {/* Divider */}
-      <div className='h-1 bg-zinc-700'></div>
-
       {/* Testimonials Section */}
       <div className='py-16 px-8 bg-zinc-800'>
         <h2 className='text-2xl md:text-3xl font-bold text-center mb-8 text-white'>

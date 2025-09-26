@@ -91,9 +91,6 @@ const ContactPage = () => {
         </form>
       </section>
 
-      {/* Divider */}
-      <div className='h-1 bg-zinc-700'></div>
-
       {/* Contact Information Section */}
       <section className='py-16 px-8 bg-zinc-800'>
         <h2 className='text-xl sm:text-3xl font-bold text-center mb-8 text-white'>
@@ -105,7 +102,7 @@ const ContactPage = () => {
                 Email
             </h3>
             <p className='text-zinc-400'>
-                support@sleeptracker.com
+                support@sleeptrackerth.com
             </p>
           </div>
           <div>
@@ -113,7 +110,7 @@ const ContactPage = () => {
                 Phone
             </h3>
             <p className='text-zinc-400'>
-                +66 (0) 000-0000
+                +66 090-000-0000
             </p>
           </div>
           <div>

@@ -30,12 +30,12 @@ export default async function HomePage() {
 
             {/* User Details */}
             <div className='flex-1'>
-              <h2 className='text-xl sm:text-2xl md:text-3xl font-bold bg-gradient-to-r text-white mb-2'>
+              <h2 className='text-xl sm:text-2xl md:text-3xl font-bold text-white mb-2'>
                 Welcome Back, {user.firstName}
               </h2>
               <p className='text-zinc-400 mb-4'>
-                Here&apos;s a quick overview of your recent sleep activity. Stay
-                on top of your data insights and manage your tasks efficiently!
+                Take a peek at your latest sleep overview! Keeping an eye on these insights is a 
+                great way to help you manage your tasks and maintain efficiency.
               </p>
               <div className='space-y-2'>
                 <p className='text-zinc-400'>
@@ -66,7 +66,7 @@ export default async function HomePage() {
         </div>
 
       </div>
-
+        
       {/* Placeholder for SleepHistory */}
       <div className='max-w-7xl mx-auto'>
         <RecordHistory /> 
