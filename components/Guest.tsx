@@ -1,5 +1,4 @@
 "use client";
-import { SignInButton } from '@clerk/nextjs';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import PrimaryButton from './PrimaryButton';
