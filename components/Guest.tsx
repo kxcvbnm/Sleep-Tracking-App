@@ -1,8 +1,15 @@
+"use client";
 import { SignInButton } from '@clerk/nextjs';
+import { motion } from 'framer-motion';
 import PrimaryButton from './PrimaryButton';
 
 const Guest = () => {
   return (
+    <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+        >
     <div className='bg-zinc-700 text-gray-200'>
       {/* Hero Section */}
       <div className='flex flex-col md:flex-row items-center justify-between p-3 md:p-16 bg-zinc-700 pt-20'>
@@ -87,6 +94,7 @@ const Guest = () => {
         </div>
       </div>
     </div>
+    </motion.div>
   );
 };
 

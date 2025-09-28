@@ -1,8 +1,15 @@
+"use client"
 import PrimaryButton from '@/components/PrimaryButton';
 import Link from 'next/link';
+import { motion } from 'framer-motion';
 
 const AboutPage = () => {
   return (
+    <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+    >
     <div className=' bg-zinc-700 text-gray-800'>
       <section className="flex flex-col items-center justify-center py-12 px-4 sm:px-6 lg:px-8 bg-zinc-700">
         <div className="w-full max-w-7xl flex flex-col md:flex-row items-center gap-8">
@@ -17,10 +24,10 @@ const AboutPage = () => {
           {/* Text Content */}
           <div className="mw-full md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left ">
             <div className="flex flex-col items-center md:items-start">
-              <h1 className="text-lg sm:text-4xl md:text-5xl font-bold mb-2 bg-gradient-to-r text-white">
+              <h1 className="text-lg sm:text-4xl md:text-5xl font-bold mb-2 text-white">
                 About
               </h1>
-              <h1 className="text-lg sm:text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r text-white">
+              <h1 className="text-lg sm:text-4xl md:text-5xl font-bold mb-4 text-white">
                 Sleep Tracker
               </h1>
             </div>
@@ -34,7 +41,7 @@ const AboutPage = () => {
 
       {/* Mission Section */}
       <section className='py-16 px-8 bg-zinc-800'>
-        <h2 className='text-xl sm:text-3xl font-bold text-center mb-8 bg-gradient-to-r text-white'>
+        <h2 className='text-xl sm:text-3xl font-bold text-center mb-8 text-white'>
             Our Goal
         </h2>
         <p className='text-zinc-400 max-w-3xl mx-auto text-center'>
@@ -47,7 +54,7 @@ const AboutPage = () => {
 
       {/* Features Section */}
       <section className='py-16 px-8 bg-zinc-700'>
-        <h2 className='bg-gradient-to-r text-white text-xl sm:text-3xl font-bold text-center mb-8'>
+        <h2 className='text-white text-xl sm:text-3xl font-bold text-center mb-8'>
           Why Choose SleepTracker?
         </h2>
         <div className='max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8'>
@@ -74,7 +81,7 @@ const AboutPage = () => {
 
       {/* Call to Action Section */}
       <section className='py-16 px-8 bg-zinc-800 text-center'>
-        <h2 className='text-xl sm:text-3xl font-bold mb-4 bg-gradient-to-r text-white'>
+        <h2 className='text-xl sm:text-3xl font-bold mb-4 text-white'>
           Ready to Sleep Better?
         </h2>
         <p className='text-lg mb-6 text-zinc-400'>
@@ -86,6 +93,7 @@ const AboutPage = () => {
         </Link>
       </section>
     </div>
+    </motion.div>
   );
 };
 
