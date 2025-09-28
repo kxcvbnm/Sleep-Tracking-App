@@ -1,5 +1,6 @@
 "use client";
 import { SignInButton } from '@clerk/nextjs';
+import Link from 'next/link';
 import { motion } from 'framer-motion';
 import PrimaryButton from './PrimaryButton';
 
@@ -21,9 +22,9 @@ const Guest = () => {
             Track your sleep, improve your health, and wake up feeling refreshed
             with SleepTracker.
           </p>
-          <SignInButton>
+          <Link href="/sign-up">
             <PrimaryButton text="Get Started"/>
-          </SignInButton>
+          </Link>
         </div>
         <div className='flex-1 flex justify-center items-center'>
           <img
