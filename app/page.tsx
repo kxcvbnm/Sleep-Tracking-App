@@ -1,6 +1,11 @@
 import React from 'react'
 import { currentUser } from '@clerk/nextjs/server';
 import Guest from '@/components/Guest';
+import AddNewRecord from '@/components/AddNewRecord';
+import RecordChart from '@/components/RecordChart';
+import AverageSleep from '@/components/AverageSleep';
+import BestWorstSleep from '@/components/BestWorstSleep';
+import RecordHistory from '@/components/RecordHistory';
 import HomeClient from '@/components/HomeClient';
 
 export default async function HomePage() {
