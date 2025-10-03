@@ -52,6 +52,6 @@ Sleep-Tracking-App/
 # Website Image
 
 ![Guest Home Page](images/guesthome_page.png)
-![Logged in Home Page](images/loggedinhome_page.png)
-![Logged in Home Page2](images/loggedinhome_page2.png)
+![Logged in Home Page](images/homeloggedin_page.png)
+![Logged in Home Page2](images/homeloggedin_page2.png)
 ![About Page](images/about_page.png)
