@@ -30,7 +30,7 @@ Track your daily sleep hours + mood, visualize patterns, and understand your res
 
 ## 📁 Project Structure
 
-```text
+```
 Sleep-Tracking-App/
 ├─ app/
 ├─ components/
@@ -45,3 +45,13 @@ Sleep-Tracking-App/
 ├─ postcss.config.mjs
 ├─ eslint.config.mjs
 └─ .gitignore
+```
+
+---
+
+# Website Image
+
+![Guest Home Page](images/guesthome_page.png)
+![Logged in Home Page](images/loggedinhome_page.png)
+![Logged in Home Page2](images/loggedinhome_page2.png)
+![About Page](images/about_page.png)
